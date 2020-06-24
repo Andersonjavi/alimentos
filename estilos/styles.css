@@ -1,0 +1,408 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(../imagenes/10.jpg);
+    background-image:url(../imagenes/10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    font-family: helvetica, arial, sans-serif;
+    padding-left: 100px;
+    background:whitesmoke
+}
+
+
+nav div{
+padding-left: px;
+
+}
+
+nav #box1{
+    padding-top: 10px;
+}
+
+
+nav #box2{
+    padding-left: 50px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+nav #box2 li{
+padding-left: 20px;
+padding-bottom: 0;
+
+
+}
+
+nav #box2 #bax1{
+border-right: solid black 1px;
+padding-right: 13px;
+}
+
+nav #box2 #bax2{
+    border-right: solid black 1px;
+    padding-right: 13px;
+    
+}
+.submenu{
+    list-style: none;
+    background: rgb(62, 243, 228);  
+    position: absolute;  
+    display: none;
+}
+
+.submenu li{
+    padding-top: 20px;
+    padding-right: 20px;
+    transition: .3s;
+
+    
+}
+.submenu li:hover{
+    background: white;
+    transition:3s
+}
+
+nav #box2 li:hover>.submenu{
+    display:block
+
+}
+
+
+
+nav #box2 #bax3{
+    border-right: solid black 1px;
+    padding-right: 13px;
+}
+
+nav #box3 {
+padding-top: 35px;
+padding-left: 300px;
+
+
+}
+nav #box3 li {
+border-right:  solid black 1px;    
+    
+    }
+
+
+
+
+nav #box4 {
+    padding-left: 10px;
+ padding-top: 35px;
+    display: flex;
+  
+
+}
+
+
+#perrito{
+    background-image:url(../imagenes/1.jpg);
+    padding: 20%;
+    background-position-x:50px ;
+    background-repeat: no-repeat;
+    list-style: none;
+    display: flex;
+  padding-left: 800px;
+  padding-top: 150px;
+}
+
+#perrito  #llol{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: black solid 2px;
+    padding-right: 10px;
+
+}
+
+#perrito  #llol #bb1{
+font-size: 35px;
+font-weight: 750;
+padding-bottom: 15px;
+padding-top: 50px;
+color: rgb(0, 255, 34);
+
+}
+#perrito  #llol #bb2{
+font-size: 20px;
+color: rgb(79, 243, 243);
+text-align: center;
+
+}
+
+
+#man {
+    padding-left: 100px;
+    list-style: none;
+    display: flex;
+    color: rgb(255, 255, 255);
+} 
+#man li{
+    font-family: 'Pacifico', cursive;
+    padding-left: 10px;
+}
+
+
+#man #pro{
+font-size: 25px;
+font-weight: 700;
+border-right: solid black 1px;
+padding-right: 25px;
+
+}
+ #man #ver{
+font-size:20px;
+padding-left:20px
+}
+
+
+
+.galeria-port{
+    background-image:url(../imagenes/6.jpg);
+    background-image:url(../imagenes/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+h3{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	background: white;
+
+}
+nav #box4 li {
+padding-left: 10px;
+}
+.galeria-port{
+        background-image:url(../imagenes/6.jpg);
+        background-image:url(../imagenes/6.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+   
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(6, 132, 48, 0.7);
+    transition: transform .60s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.hover-galeria p{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+    background: orange;
+}
+
+.imagen-port:hover {
+	filter: saturate(180%);
+
+}
+
+.imagen-port:hover{
+border-radius:30%;
+-webkit-border-radius:30%;
+box-shadow: 0px 0px 10px 10px black;
+-webkit-box-shadow: 0px 0px 10px 10px black;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transition: 60s;
+}
+.menu1{
+    background-image:url(../imagenes/7.jpg);
+    background-image:url(../imagenes/7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+h4{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    background: white;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+
+ol,#origen{
+    background-image:url(../imagenes/7.jpg);
+    background-image:url(../imagenes/7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: arial;
+
+}
+.origen{
+    margin-left:50px;
+    margin-right:50px;
+    font-size:30px;
+    text-align: center;
+    color: white;
+
+
+}
+.menu2{
+    background-image:url(../imagenes/10.jpg);
+    background-image:url(../imagenes/10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+h5{
+    background: yellow; 
+    text-align: center;
+     font-family: 'Pacifico', cursive;
+     font-size: 50px;
+     margin-left: 250px;
+     margin-right: 299px; 
+ }
+ .imagen{
+    margin-left:250px;
+    margin-right:200px;
+    filter: saturate(180%);
+
+}
+h6{
+    color: pink;
+    background: purple; 
+   text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+   
+} 
+
+.imagen2{
+   width: 100%;
+   height:100%;
+    filter: saturate(180%); 
+ }
+
+
+#rat{
+    display: flex;
+    font-size: 14px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 250px;
+    background:rgb(196, 11, 66);
+    font-weight: 500s;
+    color: rgb(203, 236, 16);
+}
+
+
+#rat div{
+padding-left: px;
+
+}
+
+#rat #b1{
+    padding-top: 25px;
+}
+
+
+#rat #b2{
+    padding-left: 70px;
+    display: flex;
+    
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#rat #b2 li{
+padding-left: 30px;
+padding-bottom: 0;
+
+
+}
+
+#rat #b2 #bex1{
+border-right: solid rgb(255, 255, 255) 1px;
+padding-right: 20px;
+}
+
+#rat #b2 #bex2{
+    border-right: solid rgb(255, 255, 255)41, 241, 241) 1px;
+    padding-right: 20px;
+}
+
+#rat #b2 #bex3{
+    border-right: solid rgb(255, 255, 255) 1px;
+    padding-right: 20px;
+}
+
+
+
+
+
+ #rat #b4 {
+    padding-left: 200px;
+ padding-top: 35px;
+    display: flex;
+  
+
+}
+#rat #b4 li {
+padding-left: 10px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(94, 94, 94);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    font-size: 13px;
+}
